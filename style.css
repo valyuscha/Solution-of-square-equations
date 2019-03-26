@@ -18,6 +18,7 @@ div {
     justify-content: center;
     align-items: center;
     background: #78d1e3;
+    padding: 0 15px;
 }
 
 span {
@@ -25,3 +26,18 @@ span {
     font-family: 'Roboto', sans-serif;
     padding: 15px 0;
 }
+
+@media screen and (max-width: 475px) {
+    input {
+        display: flex;
+        margin-bottom: 15px;
+    }
+    span {
+        text-align: center;
+    }
+    .main-input {
+        margin-left: 10px;
+    }
+}
+
+
